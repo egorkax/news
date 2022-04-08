@@ -1,0 +1,111 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.logo {
+	
+	float: left;
+
+}
+.container {
+	width: 980px;
+	background: white;
+	margin: 50px auto;
+	padding: 10px 20px
+
+
+}
+.header {
+	color:white;
+    font-size: 20px;
+    text-align: center;
+   background: black;
+   line-height: 75px;
+   
+   padding: 10px;
+   opacity: 0.6;
+}
+
+
+
+
+
+
+
+body {
+	background-image: url(../img/EarthMap.jpg);
+ 	 font-size: 16px;
+	  font-family: Arial, sans-serif;
+ 	 color: #000;
+ 	
+	  line-height: 1.2;
+}
+
+.n1 {
+
+	float: left;
+	margin-right: 20px;
+}
+.news h2 {
+	margin-bottom: 10px;
+}
+.news h1 {
+	margin-bottom: 20px;
+}
+.news span {
+	margin-bottom: 20px;
+	display:inline-block;
+}
+.n2 {
+	margin-bottom: 20px;
+}
+p {
+	margin-bottom: 20px;
+}
+.clear {
+  /* left/right/both */
+  clear: both;
+}
+
+.container span {
+	color:#ebb3ce;
+	font-size:14px ;
+}
+
+
+.link  {
+ background: #fce5f9;
+  color: #7e456e;
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+  /* плавность: скорость стиль; */
+  transition: 0.3s ease;
+  }
+
+  .link:hover {
+  background: #fa6593;
+  font-size: 24px;
+}
+.news {
+	margin-bottom: 20px;
+	margin: 20px;
+
+}
+
+.dalee li {
+	display: inline-block;
+	margin: 10px;
+
+}
+a {
+	text-decoration: none;
+}
+.dalee a:hover {
+	color:#fa6593;
+}
+.dalee {
+	text-align: center;
+}
